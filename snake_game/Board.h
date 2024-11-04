@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Board : NSObject
 
+- (BOOL)validateCaseBoard:(int)numberCase;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

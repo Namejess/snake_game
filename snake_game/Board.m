@@ -9,4 +9,13 @@
 
 @implementation Board
 
+- (BOOL)validateCaseBoard:(int)numberCase {
+
+	if ( numberCase == 50 || numberCase == 100 || numberCase == 200 ) {
+		return YES;;
+	}
+
+	return NO;
+}
+
 @end

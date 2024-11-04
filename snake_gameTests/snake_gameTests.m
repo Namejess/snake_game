@@ -5,7 +5,25 @@
 //  Created by Jessy Drouin on 04/11/2024.
 //
 
+//## Jeu du serpent POO
+//
+//	- Reprendre le principe de base du jeu du Serpent (jeu de plateau) pour le faire en orienté objet.
+//	- Vous devez avoir à minima deux classes :
+//	- Jeu / Game
+//	- Joueur / Player
+//	- Chaque classe doit effectuer les opérations qui lui incombe.
+
+//	- Le program.cs ne doit contenir qu'une instanciation de la classe Jeu / Game + Appel d'une méthode Start() (Donc uniquement deux lignes dans le program.cs, ou une pour ceux qui voient comment faire)
+//	- Tout doit être fait en orienté objet
+//	- Toutes les règles du jeu du serpent procédural doivent être reprises (Si dépasse la case max, retourne à case max / 2, cases pièges / bonus, si un joueur arrive à la case final, il doit être proclamé 	comme vainqueur, les joueurs jouent au tour par tour)
+
+//	- Bonus à implémenter pour bien pratiquer :
+//	- Le nombre de case du plateau doit être entré par l'utilisateur soit 50, soit 100, soit 200
+//	- Le nombre de joueur est décidé au début de la partie (entre 2 et 4 joueurs)
+//	- Case pièges / bonus à adapter en fonction de la taille du plateau
+
 #import <XCTest/XCTest.h>
+#import "Board.h"
 
 @interface snake_gameTests : XCTestCase
 
@@ -21,9 +39,32 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+- (void)test_validateCaseBoard50 {
+	Board* board = [[Board alloc] init];
+
+	int result = [board validateCaseBoard:50];
+
+	XCTAssertEqual(result, true);
 }
+
+- (void)test_validateCaseBoard100 {
+	Board* board = [[Board alloc] init];
+
+	int result = [board validateCaseBoard:100];
+
+	XCTAssertEqual(result, true);
+}
+
+- (void)test_validateCaseBoard200 {
+	Board* board = [[Board alloc] init];
+
+	int result = [board validateCaseBoard:200];
+
+	XCTAssertEqual(result, true);
+}
+
+
+
 
 @end

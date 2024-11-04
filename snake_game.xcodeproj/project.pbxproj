@@ -14,6 +14,7 @@
 		387EE90A2CD9199900831C17 /* snake_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9092CD9199900831C17 /* snake_gameTests.m */; };
 		387EE9142CD9199900831C17 /* snake_gameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9132CD9199900831C17 /* snake_gameUITests.m */; };
 		387EE9162CD9199900831C17 /* snake_gameUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9152CD9199900831C17 /* snake_gameUITestsLaunchTests.m */; };
+		387EE9242CD91C9F00831C17 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9232CD91C9F00831C17 /* Board.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		387EE90F2CD9199900831C17 /* snake_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snake_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387EE9132CD9199900831C17 /* snake_gameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snake_gameUITests.m; sourceTree = "<group>"; };
 		387EE9152CD9199900831C17 /* snake_gameUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snake_gameUITestsLaunchTests.m; sourceTree = "<group>"; };
+		387EE9222CD91C9F00831C17 /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		387EE9232CD91C9F00831C17 /* Board.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				387EE8F92CD9199900831C17 /* Assets.xcassets */,
 				387EE8FB2CD9199900831C17 /* MainMenu.xib */,
 				387EE8FE2CD9199900831C17 /* main.m */,
+				387EE9222CD91C9F00831C17 /* Board.h */,
+				387EE9232CD91C9F00831C17 /* Board.m */,
 				387EE9002CD9199900831C17 /* snake_game.entitlements */,
 			);
 			path = snake_game;
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387EE9242CD91C9F00831C17 /* Board.m in Sources */,
 				387EE8FF2CD9199900831C17 /* main.m in Sources */,
 				387EE8F82CD9199700831C17 /* AppDelegate.m in Sources */,
 			);

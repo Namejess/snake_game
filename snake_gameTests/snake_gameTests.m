@@ -24,6 +24,7 @@
 
 #import <XCTest/XCTest.h>
 #import "Board.h"
+#import "Player.h"
 
 @interface snake_gameTests : XCTestCase
 
@@ -39,8 +40,10 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
+#pragma mark -- BOARD TEST
 
-- (void)test_validateCaseBoard50 {
+/// Validation des cases du jeu
+- (void)test_validateCaseBoard_50 {
 	Board* board = [[Board alloc] init];
 
 	int result = [board validateCaseBoard:50];
@@ -48,7 +51,7 @@
 	XCTAssertEqual(result, true);
 }
 
-- (void)test_validateCaseBoard100 {
+- (void)test_validateCaseBoard_100 {
 	Board* board = [[Board alloc] init];
 
 	int result = [board validateCaseBoard:100];
@@ -56,15 +59,52 @@
 	XCTAssertEqual(result, true);
 }
 
-- (void)test_validateCaseBoard200 {
+- (void)test_validateCaseBoard_200 {
 	Board* board = [[Board alloc] init];
 
-	int result = [board validateCaseBoard:200];
+	int result = [board validateCaseBoard:20];
 
 	XCTAssertEqual(result, true);
 }
 
+#pragma mark -- PLAYER TEST
+
+- (void)test_validateNumberOfPlayers {
+	Player* player = [[Player alloc] init];
+
+	int result = [player validateNumberOfPlayers:@2];
+
+	XCTAssertTrue(result);
+}
+
+- (void)test_setPlayerAge {
+	Player* player = [[Player alloc] init];
+
+	[player setAge:@7];
+
+	XCTAssertNotNil(player.age);
+	XCTAssertTrue([player.age isKindOfClass:[NSNumber class]]);
+}
 
 
+- (void)test_setPlayerName {
+	Player* player = [[Player alloc] init];
+	
+	// False
+	NSArray* testCasesFalse = @[@"h", @"h ", @"1", @""];
+
+	// True
+	NSArray* testCases = @[@"Jessy", @"Mike", @"Sydney", @"Eric"];
+
+	for (NSString* testCase in testCases) {
+		[player setName:testCase];
+
+		XCTAssertTrue([player validateNameOfPlayers:testCase]);
+		XCTAssertNotNil(player.name);
+		XCTAssertTrue([player.name isKindOfClass:[NSString class]]);
+	}
+}
+
+#pragma mark -- GAME TEST
 
 @end

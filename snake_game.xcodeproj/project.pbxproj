@@ -15,6 +15,8 @@
 		387EE9142CD9199900831C17 /* snake_gameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9132CD9199900831C17 /* snake_gameUITests.m */; };
 		387EE9162CD9199900831C17 /* snake_gameUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9152CD9199900831C17 /* snake_gameUITestsLaunchTests.m */; };
 		387EE9242CD91C9F00831C17 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9232CD91C9F00831C17 /* Board.m */; };
+		387EE9272CD91F6000831C17 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9262CD91F6000831C17 /* Player.m */; };
+		387EE9282CD91F6000831C17 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 387EE9262CD91F6000831C17 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		387EE9152CD9199900831C17 /* snake_gameUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snake_gameUITestsLaunchTests.m; sourceTree = "<group>"; };
 		387EE9222CD91C9F00831C17 /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		387EE9232CD91C9F00831C17 /* Board.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		387EE9252CD91F6000831C17 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		387EE9262CD91F6000831C17 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				387EE8FE2CD9199900831C17 /* main.m */,
 				387EE9222CD91C9F00831C17 /* Board.h */,
 				387EE9232CD91C9F00831C17 /* Board.m */,
+				387EE9252CD91F6000831C17 /* Player.h */,
+				387EE9262CD91F6000831C17 /* Player.m */,
 				387EE9002CD9199900831C17 /* snake_game.entitlements */,
 			);
 			path = snake_game;
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387EE9272CD91F6000831C17 /* Player.m in Sources */,
 				387EE9242CD91C9F00831C17 /* Board.m in Sources */,
 				387EE8FF2CD9199900831C17 /* main.m in Sources */,
 				387EE8F82CD9199700831C17 /* AppDelegate.m in Sources */,
@@ -267,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387EE9282CD91F6000831C17 /* Player.m in Sources */,
 				387EE90A2CD9199900831C17 /* snake_gameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

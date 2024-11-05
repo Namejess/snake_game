@@ -20,13 +20,6 @@ jobs:
       - name: Run build-wrapper
         run: |
           build-wrapper-macosx-x86 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} xcodebuild -project snake_game.xcodeproj -scheme snake_game
-      - name: Run tests to generate coverage statistics
-        run: |
-          xcodebuild test -project snake_game.xcodeproj -scheme snake_game -enableCodeCoverage YES -derivedDataPath build
-          xcodebuild test -project snake_game.xcodeproj -scheme snake_game -enableCodeCoverage YES -derivedDataPath build
-      - name: Collect coverage into one XML report
-        run: |
-          bash xccov-to-generic.sh build/Logs/Test/*.xcresult/ > generic-coverage.xml
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -14,10 +14,112 @@
             filePath = "snake_gameTests/snake_gameTests.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-test_setPlayerName"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "snake_gameTests/snake_gameTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-test_setPlayerAge"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "72670A72-463F-4111-8068-E9BE5F4EF3CF - 918828c449b745f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[snake_gameTests test_setPlayerAge]"
+                  moduleName = "snake_gameTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jdrouin/Prokov-Dev/snake_game/snake_gameTests/snake_gameTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

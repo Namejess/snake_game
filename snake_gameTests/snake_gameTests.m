@@ -62,7 +62,7 @@
 - (void)test_validateCaseBoard_200 {
 	Board* board = [[Board alloc] init];
 
-	int result = [board validateCaseBoard:20];
+	int result = [board validateCaseBoard:200];
 
 	XCTAssertEqual(result, true);
 }
@@ -80,10 +80,19 @@
 - (void)test_setPlayerAge {
 	Player* player = [[Player alloc] init];
 
-	[player setAge:@7];
+	// False
+	NSArray* testCasesFalse = @[@"h", @0, @78, @4.4];
 
-	XCTAssertNotNil(player.age);
-	XCTAssertTrue([player.age isKindOfClass:[NSNumber class]]);
+	// True
+	NSArray* testCases = @[@7, @18, @77, @44];
+
+	for (NSNumber* testCase in testCases) {
+		[player setAge:testCase];
+
+		XCTAssertNotNil(player.age);
+		XCTAssertTrue([player.age isKindOfClass:[NSNumber class]]);
+		XCTAssertTrue([player validateAgeOfPlayers:testCase]);
+	}
 }
 
 
@@ -106,5 +115,14 @@
 }
 
 #pragma mark -- GAME TEST
+
+- (void)test_launchDice {
+	Board* board = [[Board alloc] init];
+
+	int diceRoll = 5;
+
+	XCTAssertTrue([board launchDice] == 1 || 2 || 3 || 4 );
+	XCTAssertTrue(diceRoll == 1 || 2 || 3 || 4 );
+}
 
 @end

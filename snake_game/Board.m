@@ -18,4 +18,15 @@
 	return NO;
 }
 
+- (int)launchDice {
+
+	int diceRoll = arc4random_uniform(5);
+
+	if ( (diceRoll == (1)) | 2 | 3 | 4 ) {
+		_dice = diceRoll;
+	}
+
+	return _dice;
+}
+
 @end

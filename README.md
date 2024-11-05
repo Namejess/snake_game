@@ -11,3 +11,11 @@
     - Le nombre de case du plateau doit être entré par l'utilisateur soit 50, soit 100, soit 200
     - Le nombre de joueur est décidé au début de la partie (entre 2 et 4 joueurs)
     - Case pièges / bonus à adapter en fonction de la taille du plateau
+
+## Sources
+
+### SonarCloud
+https://sonarcloud.io/summary/overall?id=Namejess_snake_game
+
+### Repo custom macOS
+https://github.com/sonarsource-cfamily-examples/macos-xcode-coverage-gh-actions-sc/blob/main/.github/workflows/build.yml

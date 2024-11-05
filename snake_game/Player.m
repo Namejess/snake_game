@@ -9,6 +9,7 @@
 
 #pragma mark -- IMPLEMENTATION PLAYER
 @implementation Player
+@synthesize age;
 
 // =================================================================================
 // .
@@ -51,7 +52,7 @@
 - (void)setAge:(NSNumber*)playerAge {
 
 	if ( [self validateAgeOfPlayers:playerAge] ) {
-		_age = playerAge;
+		self.age = playerAge;
 	}
 }
 

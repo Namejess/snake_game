@@ -18,9 +18,9 @@ typedef NS_ENUM(NSUInteger, numberOfPlayers) {
 	player4 = 4,
 };
 
-@property (nonatomic) 	numberOfPlayers 	defaultPlayers;
+@property (nonatomic) 	int 	defaultPlayers;
 @property (nonatomic) 	NSString*			name;
-@property (nonatomic)	NSArray*			listOfPlayers;
+@property (nonatomic)	NSMutableArray*			listOfPlayers;
 @property (readwrite, assign)	NSNumber* 			age;
 
 - (BOOL)validateNumberOfPlayers:(NSNumber*)numberPlayer;

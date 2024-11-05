@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Board : NSObject
 
-@property(nonatomic) int	dice;
+@property(nonatomic) int				dice;
+@property(nonatomic) NSDictionary*		boardCases;
 
 - (BOOL)validateCaseBoard:(int)numberCase;
 - (int)launchDice;
